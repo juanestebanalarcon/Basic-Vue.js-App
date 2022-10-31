@@ -1,5 +1,7 @@
 # 01-fundamentos-app
 
+This project was developed using Vue.js
+
 ## Project setup
 ```
 yarn install
