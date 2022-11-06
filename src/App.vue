@@ -2,22 +2,26 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <PruebaComponent msg="Property msg"/>
+  <indecisionComponent/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import IndecisionComponent from './components/IndecisionComponent.vue'
 import PruebaComponent from './components/PruebaComponent.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    PruebaComponent
+    PruebaComponent,
+    IndecisionComponent
   }
 }
 </script>
 
-<style>
+<,
+    Indecisionstyle>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -7,7 +7,13 @@
 <script>
 export default {
 name: "PruebaComponent",
-props:{msg:String}
+props:{msg:String},
+methods:{
+    getValue(){return this.msg;}
+},
+computed:{
+    getValueFinal(){return this.msg + 1;}
+}
 }
 </script>
 
